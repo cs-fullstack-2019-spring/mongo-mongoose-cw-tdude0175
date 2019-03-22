@@ -11,10 +11,12 @@ animal_id
 animal_type
 animal_description
 ```
-Implment the following endpoints for your ZooWeb web service:
+Implement the following endpoints for your ZooWeb web service:
 ```/zoowebapi/animal/add/ANIMAL_ID/ANIMAL_TYPE/ANIMAL_DESCRIPTION``` That will add an animal
+
 ```/zoowebapi/animal/get/ANIMAL_ID``` That will get an animal by id and return the JSON retrieved
-```/zoowebapi/animal/usdate/ANIMAL_ID/ANIMAL_TYPE/ANIMAL_DESCRIPTION``` That will update the TYPE and DESCRIPTION of the animal with the provided ID and return the updated JSON
+
+```/zoowebapi/animal/update/ANIMAL_ID/ANIMAL_TYPE/ANIMAL_DESCRIPTION``` That will update the TYPE and DESCRIPTION of the animal with the provided ID and return the updated JSON
 
 ```/zoowebapi/animal/del/ANIMAL_ID``` That will delete an animal
 
